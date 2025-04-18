@@ -41,6 +41,7 @@ npm install
 ```bash
 npm run dev
 ```
+Isso iniciará a API em `http://localhost:3000` e também disponibilizará a documentação Swagger automaticamente.
 
 ## Documentação Swagger
 
