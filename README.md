@@ -2,8 +2,6 @@
 
 Sistema de gerenciamento de reservas de salas de reunião, com backend em **Node.js**, integração com **Supabase** e documentação com **Swagger**.
 
----
-
 ## Tecnologias Utilizadas
 
 - **Node.js + Express**
@@ -11,9 +9,7 @@ Sistema de gerenciamento de reservas de salas de reunião, com backend em **Node
 - **Supabase**
 - **Swagger**
 
----
-
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 src/
@@ -26,15 +22,11 @@ src/
 .env                  # Variáveis de ambiente
 ```
 
----
-
 ## Modelo de Dados (UML)
 
 Modelo criado no Supabase:
 
 ![Modelo UML](./schema.png)
-
----
 
 ## Como Rodar o Projeto
 
@@ -50,15 +42,11 @@ npm install
 npm run dev
 ```
 
----
-
 ## Documentação Swagger
 
 A documentação da API está disponível em:
 
 🔗 [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
-
----
 
 ## Funcionalidades da API
 
@@ -96,8 +84,6 @@ A API está dividida nos seguintes grupos:
 | DELETE | `/api/reservations/reservation/{id}`       | Deletar reserva por ID                 |
 | GET    | `/api/reservations/user/{userId}`          | Listar reservas de um usuário          |
 | GET    | `/api/reservations/room/{roomId}`          | Listar reservas de uma sala            |
-
----
 
 ## Autor
 
