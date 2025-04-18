@@ -84,7 +84,3 @@ A API está dividida nos seguintes grupos:
 | DELETE | `/api/reservations/reservation/{id}`       | Deletar reserva por ID                 |
 | GET    | `/api/reservations/user/{userId}`          | Listar reservas de um usuário          |
 | GET    | `/api/reservations/room/{roomId}`          | Listar reservas de uma sala            |
-
-## Autor
-
-Feito com 💙 por [Ana Catarina Santos](https://github.com/an4catarina)
